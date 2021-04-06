@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075641229E912312E6261FC9 /* Pods_DeepMind_DeepMindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52C7A5FFEDE7EBAB1FB8436 /* Pods_DeepMind_DeepMindUITests.framework */; };
+		C9D26D6E2FCFF3CAECFA9DEB /* Pods_DeepMind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF99213CA78276AAAB4993D /* Pods_DeepMind.framework */; };
 		DC9A55B1261CB00C00003A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A55B0261CB00C00003A6A /* AppDelegate.swift */; };
 		DC9A55B3261CB00C00003A6A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC9A55B2261CB00C00003A6A /* GameScene.sks */; };
 		DC9A55B5261CB00C00003A6A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC9A55B4261CB00C00003A6A /* Actions.sks */; };
@@ -16,6 +18,7 @@
 		DC9A55BE261CB00D00003A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9A55BD261CB00D00003A6A /* Assets.xcassets */; };
 		DC9A55C9261CB00D00003A6A /* DeepMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A55C8261CB00D00003A6A /* DeepMindTests.swift */; };
 		DC9A55D4261CB00E00003A6A /* DeepMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A55D3261CB00E00003A6A /* DeepMindUITests.swift */; };
+		F4AF0FC5793C933ECEA7C130 /* Pods_DeepMindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673ABDD630752C148F61EB6F /* Pods_DeepMindTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39C6FEFEFBE93743EACE4AB3 /* Pods-DeepMindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMindTests.release.xcconfig"; path = "Target Support Files/Pods-DeepMindTests/Pods-DeepMindTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D9F2B0AE45C6DA309AA58CE /* Pods-DeepMind-DeepMindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind-DeepMindUITests.release.xcconfig"; path = "Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42E6D5AD0BED5F859B8584EE /* Pods-DeepMindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMindTests.debug.xcconfig"; path = "Target Support Files/Pods-DeepMindTests/Pods-DeepMindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF99213CA78276AAAB4993D /* Pods_DeepMind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673ABDD630752C148F61EB6F /* Pods_DeepMindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEFF60BF228B82CC989BF43 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind-DeepMindUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A52C7A5FFEDE7EBAB1FB8436 /* Pods_DeepMind_DeepMindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepMind_DeepMindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5835D78FEB91ADDF579E56 /* Pods-DeepMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind.release.xcconfig"; path = "Target Support Files/Pods-DeepMind/Pods-DeepMind.release.xcconfig"; sourceTree = "<group>"; };
 		DC9A55AD261CB00C00003A6A /* DeepMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A55B0261CB00C00003A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9A55B2261CB00C00003A6A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 		DC9A55CF261CB00E00003A6A /* DeepMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9A55D3261CB00E00003A6A /* DeepMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepMindUITests.swift; sourceTree = "<group>"; };
 		DC9A55D5261CB00E00003A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2C6989E3DAE7A3AEEA99AA /* Pods-DeepMind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepMind.debug.xcconfig"; path = "Target Support Files/Pods-DeepMind/Pods-DeepMind.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D26D6E2FCFF3CAECFA9DEB /* Pods_DeepMind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AF0FC5793C933ECEA7C130 /* Pods_DeepMindTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075641229E912312E6261FC9 /* Pods_DeepMind_DeepMindUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DCB399042B318417676B131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF99213CA78276AAAB4993D /* Pods_DeepMind.framework */,
+				A52C7A5FFEDE7EBAB1FB8436 /* Pods_DeepMind_DeepMindUITests.framework */,
+				673ABDD630752C148F61EB6F /* Pods_DeepMindTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B98FC7CA93D1577D07B9BFFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC2C6989E3DAE7A3AEEA99AA /* Pods-DeepMind.debug.xcconfig */,
+				CC5835D78FEB91ADDF579E56 /* Pods-DeepMind.release.xcconfig */,
+				7CEFF60BF228B82CC989BF43 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */,
+				3D9F2B0AE45C6DA309AA58CE /* Pods-DeepMind-DeepMindUITests.release.xcconfig */,
+				42E6D5AD0BED5F859B8584EE /* Pods-DeepMindTests.debug.xcconfig */,
+				39C6FEFEFBE93743EACE4AB3 /* Pods-DeepMindTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC9A55A4261CB00C00003A6A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				DC9A55C7261CB00D00003A6A /* DeepMindTests */,
 				DC9A55D2261CB00E00003A6A /* DeepMindUITests */,
 				DC9A55AE261CB00C00003A6A /* Products */,
+				B98FC7CA93D1577D07B9BFFF /* Pods */,
+				6DCB399042B318417676B131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9A55D8261CB00E00003A6A /* Build configuration list for PBXNativeTarget "DeepMind" */;
 			buildPhases = (
+				6710B3ED214458FDB836D389 /* [CP] Check Pods Manifest.lock */,
 				DC9A55A9261CB00C00003A6A /* Sources */,
 				DC9A55AA261CB00C00003A6A /* Frameworks */,
 				DC9A55AB261CB00C00003A6A /* Resources */,
+				A0024FED4E7C8DD09640E563 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9A55DB261CB00E00003A6A /* Build configuration list for PBXNativeTarget "DeepMindTests" */;
 			buildPhases = (
+				C721EE6F16324CEF2EEF0054 /* [CP] Check Pods Manifest.lock */,
 				DC9A55C0261CB00D00003A6A /* Sources */,
 				DC9A55C1261CB00D00003A6A /* Frameworks */,
 				DC9A55C2261CB00D00003A6A /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9A55DE261CB00E00003A6A /* Build configuration list for PBXNativeTarget "DeepMindUITests" */;
 			buildPhases = (
+				F96DCB6BA3ECBB77BACA91C6 /* [CP] Check Pods Manifest.lock */,
 				DC9A55CB261CB00E00003A6A /* Sources */,
 				DC9A55CC261CB00E00003A6A /* Frameworks */,
 				DC9A55CD261CB00E00003A6A /* Resources */,
+				21450CA865CE2763235914D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21450CA865CE2763235914D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepMind-DeepMindUITests/Pods-DeepMind-DeepMindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6710B3ED214458FDB836D389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0024FED4E7C8DD09640E563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeepMind/Pods-DeepMind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C721EE6F16324CEF2EEF0054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96DCB6BA3ECBB77BACA91C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepMind-DeepMindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC9A55A9261CB00C00003A6A /* Sources */ = {
@@ -429,6 +578,7 @@
 		};
 		DC9A55D9261CB00E00003A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2C6989E3DAE7A3AEEA99AA /* Pods-DeepMind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +598,7 @@
 		};
 		DC9A55DA261CB00E00003A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5835D78FEB91ADDF579E56 /* Pods-DeepMind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +618,7 @@
 		};
 		DC9A55DC261CB00E00003A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E6D5AD0BED5F859B8584EE /* Pods-DeepMindTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +641,7 @@
 		};
 		DC9A55DD261CB00E00003A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C6FEFEFBE93743EACE4AB3 /* Pods-DeepMindTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		DC9A55DF261CB00E00003A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEFF60BF228B82CC989BF43 /* Pods-DeepMind-DeepMindUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		DC9A55E0261CB00E00003A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9F2B0AE45C6DA309AA58CE /* Pods-DeepMind-DeepMindUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
