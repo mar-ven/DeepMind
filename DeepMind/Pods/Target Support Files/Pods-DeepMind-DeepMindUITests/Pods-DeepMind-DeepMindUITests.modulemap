@@ -1,0 +1,6 @@
+framework module Pods_DeepMind_DeepMindUITests {
+  umbrella header "Pods-DeepMind-DeepMindUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
